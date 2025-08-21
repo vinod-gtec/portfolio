@@ -210,14 +210,7 @@ if (contactForm) {
 }
 
 // Parallax effect for hero section
-window.addEventListener('scroll', () => {
-    const scrolled = window.pageYOffset;
-    const hero = document.querySelector('.hero');
-    if (hero) {
-        const rate = scrolled * -0.5;
-        hero.style.transform = `translateY(${rate}px)`;
-    }
-});
+
 
 // Typing effect for hero title
 const typeWriter = (element, text, speed = 100) => {
@@ -626,3 +619,4 @@ const createCursorTrail = () => {
 createCursorTrail();
 
 console.log('Portfolio website loaded successfully! 🚀');
+
