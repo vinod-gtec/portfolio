@@ -17,6 +17,9 @@ body {
     overflow-x: hidden;
     position: relative;
 }
+html,body{
+    margin:0;
+    padding:0;}
 
 /* Custom scrollbar */
 ::-webkit-scrollbar {
@@ -1307,3 +1310,4 @@ section:not(.hero) {
     opacity: 1;
     transform: scale(1);
 }
+
